@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+	<link rel="stylesheet" href="{{url_for('static', filename='style1.css')}}">
+	<link rel="stylesheet" href="{{url_for('static', filename='stylef.css')}}">
+	<div id="container">
+		<nav id="nav">
+		  <div id="logo">
+			<p id="navbar">
+			Répertoire Telephonique
+			</p>
+		  </div>
+		  <ul class="list" id="navbar">
+			<li class="dropdown"><a href="{{ url_for('index')}}" class="txt">Acceuil</a></li>
+			<li class="dropdown"><a href="{{ url_for('recherche')}}" class="txt">🔎</a></li>
+			<li class="dropdown"><a href="{{ url_for('ajout')}}" class="txt">➕</a></li>
+			  </ul>
+			  </div>
+		  </ul>
+		</nav>
+	  </div>
+	</head>
+	<body>
+		<form class="form" action="ajout_valider" method="post">
+            <div class="title">Bienvenu</div>
+            <div class="subtitle">Ajoute Ton Numéro</div>
+            <div class="input-container ic1">
+              <input id="nom_ajout" class="input" type="text" name="nom_ajout" placeholder=" " value="" />
+              <div class="cut"></div>
+              <label for="nom_ajout" class="placeholder">Nom</label>
+            </div>
+            <div class="input-container ic2">
+              <input id="numero_ajout" class="input" type="text" name="numero_ajout" placeholder=" " value="" />
+              <div class="cut"></div>
+              <label for="numero_ajout" class="placeholder">Numéro de Téléphone</label>
+            </div>
+            <div class="input-container ic2">
+              <input id="email" class="input" type="text" placeholder=" " />
+              <div class="cut cut-short"></div>
+              <label for="email" class="placeholder">Adresse Mail </label>
+            </div>
+            <input type="submit" value="Sauvegarder" id="ajout_valider" class="submit">
+        </form>
+	</body>
+</html>

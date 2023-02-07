@@ -1,0 +1,35 @@
+
+<html>
+    <head>
+	<link rel="stylesheet" href="{{url_for('static', filename='style1.css')}}">
+  <link rel="stylesheet" href="{{url_for('static', filename='style4.css')}}">
+	<div id="container">
+        <nav id="nav">
+          <div id="logo">
+            <p id="navbar">
+            Répertoire Telephonique
+            </p>
+          </div>
+          <ul class="list" id="navbar">
+            <li class="dropdown"><a href="{{ url_for('index')}}" class="txt">Acceuil</a></li>
+			<li class="dropdown"><a href="{{ url_for('recherche')}}" class="txt">🔎</a></li>
+      <li class="dropdown"><a href="{{ url_for('ajout')}}" class="txt">➕</a></li>
+              </ul>
+              </div>
+          </ul>
+        </nav>
+      </div>
+    </head>
+    </footer>
+    <div id="page5">
+	<body>
+		<meta charset="utf-8">
+		<title style="color:white">Répertoire téléphonique</title>
+    <p style="color:white">
+      Ce projet consiste à crée une version "site web" du projet répertoire téléphonique. <br>
+      Pour réaliser ce projet, nous avions utilisé le Framework Python Flask (version 1.1.4). <br>
+      Les données sauvegardées par les utilisateurs sont enregistré sous format de liste et ne sont pas sauvegardé après avoir redémarré l’environnement Flask. <br>
+    </p>
+	</body>
+</div>
+</html>

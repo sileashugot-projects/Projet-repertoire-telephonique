@@ -1,0 +1,66 @@
+* {
+    margin:0;
+    padding:0;
+  }
+#html
+  {
+      font-family: 'Times New Roman', Times, serif;
+  }
+  /* Barre de Navigation */
+#navbar {
+    font-family: 'Raleway', sans-serif;
+  }
+#container {
+    position:relative;
+    background-color:black;
+    box-shadow: -2px -2px 5px white,2px -2px 5px white;
+  }
+#nav {
+    width:100%;
+    display:flex;
+    max-height:60px;
+  }
+#logo {
+    line-height:60px;
+    font-size:30px;
+    padding: 0 50px;
+    color: rgb(212, 211, 211);
+    width:40%;
+    letter-spacing:2px;
+    text-shadow:4px 2px 5px;
+  }
+.list {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    display:flex;
+    position:absolute;
+      right:50px;
+  }
+.dropdown {
+    line-height:60px;
+    margin: 0 0px;
+    padding:0;
+    text-align:center;
+    display:inline-block;
+    transition: transform .25s;
+  } 
+.txt {
+    position:relative;
+    margin: 0 20px;
+      color:white;
+  }
+.dropdown:hover {
+    border-bottom: 2px solid white;
+    background-color: #5e0a42;
+    transform: scale(1.05);
+    border-bottom:none;
+  }
+
+  
+#page5{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-size:30px;
+}
