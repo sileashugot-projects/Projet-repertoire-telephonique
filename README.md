@@ -14,7 +14,7 @@ https://pixees.fr/informatiquelycee/n_site/nsi_prem_projet_4.html
 2. Demarer le programme views.py, ouvrir le site
 
 #Utilisation:
-Ce projet etant fait en classe, je vous encourage de juste utiliser mon projet pour voir comment Flask fonctionne.
+Ce projet etant fait en classe, je vous encourage de juste utiliser mon projet pour voir comment Flask fonctionne. Vous pouvez aussi changer tous le style pour ameliorer l'estethique.
 
 #Tu trouves un bug ?:
 Ce projet etant archivee, je n'ai aucune intension de le changer
